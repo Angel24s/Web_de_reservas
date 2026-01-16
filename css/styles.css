@@ -17,7 +17,7 @@ h1, h2, h3 {
 
 .hero {
   height: 100vh;
-  background: url('img/hero.jpg')center/cover no-repeat;
+  background: url('/img/hero.jpg') center /cover no-repeat;
   display: flex;
   align-items: center;
   padding: 60px;
@@ -25,7 +25,7 @@ h1, h2, h3 {
 
 .hero-content {
   max-width: 600px;
-  background: rgb(255, 254, 254);
+  background: rgba(255, 254, 254, 0);
   padding: 40px;
 }
 
