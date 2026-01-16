@@ -15,9 +15,9 @@
 }
 
 .logo {
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  font-size: 22px;
+  font-family: 'NotoSerif';
+  font-weight: 800;
+  font-size: 25px;
   color: #111;
   text-align: center;
 }
@@ -32,7 +32,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  color: #111;
+  color: #000000;
   background: #fff;
   line-height: 1.6;
 }
@@ -43,29 +43,64 @@ h1, h2, h3 {
 
 /* HERO */
 .hero {
-  height: calc(100vh - 60px); /* 60px es la altura de la top-bar */
+  position: relative;
+  height: 100vh;
   background: url("../img/hero.jpg") center / cover no-repeat;
   display: flex;
-  align-items: center;        /* centra vertical */
-  justify-content: center;    /* opcional: centra horizontal */
-  padding: 0 60px 60px;       /* top: 0 porque ya restamos la barra */
+  align-items: center;
+  justify-content: flex-start;   /* contenido a la izquierda en desktop */
+  padding: 0 60px;
+  overflow: hidden;
 }
 
+/* Overlay difuminado */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3); /* oscurece/funde la imagen */
+  z-index: 1;
+}
+
+/* Contenido del hero */
 .hero-content {
-  max-width: 600px;
-  text-align: center;
+  position: relative; /* encima del overlay */
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.9); /* blanco semi-transparente */
+  border-radius: 3%;
+  padding: 40px;
+  text-align: left;   /* alineado a la izquierda */
+  z-index: 2;
 }
 
-
+/* Botón */
 .btn-whatsapp {
   display: inline-block;
   margin-top: 20px;
   padding: 14px 28px;
   background: #25D366;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   border-radius: 4px;
+  font-weight: 600;
+  
 }
+
+/* RESPONSIVE: Móviles */
+@media (max-width: 768px) {
+  .hero {
+    justify-content: center; /* centra horizontalmente en móvil */
+    padding: 20px;
+  }
+
+  .hero-content {
+    text-align: center;
+    max-width: 90%;
+  }
+}
+
 
 /* SECCIONES */
 .section {
@@ -139,12 +174,12 @@ h1, h2, h3 {
 }
 
 .card {
-  border: 1px solid #ddd;
+  border: 2px solid #ff0000;
   padding: 30px;
 }
 
 .recommended {
-  border: 2px solid #44f100;
+  border: 2px solid #C9A24D;
 }
 
 .badge {
@@ -154,8 +189,8 @@ h1, h2, h3 {
 
 /* CTA */
 .cta {
-  background: #111;
-  color: #fff;
+  background: #797777;
+  color: #ffffff;
   padding: 80px 40px;
   text-align: center;
 }
