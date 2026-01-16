@@ -17,7 +17,7 @@ h1, h2, h3 {
 
 .hero {
   height: 100vh;
-  background: url('/img/hero.jpeg') center/cover no-repeat;
+  background: url('img/hero.jpeg') center/cover no-repeat;
   display: flex;
   align-items: center;
   padding: 60px;
