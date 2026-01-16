@@ -185,3 +185,33 @@ footer {
     padding: 60px 20px;
   }
 }
+
+/* CARRUSEL INFINITO */
+.carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 40px;
+  mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+}
+
+.carousel-track {
+  display: flex;
+  flex-wrap: nowrap;
+  animation: scroll 60s linear infinite; /* Velocidad más lenta */
+}
+
+.carousel-track img {
+  width: 200px; /* Ajusta según tu diseño */
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+/* Animación infinita */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+

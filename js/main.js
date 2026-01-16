@@ -8,3 +8,4 @@ document.querySelectorAll(".btn-whatsapp").forEach(btn => {
     window.open(`https://wa.me/${phone}?text=${encodeURIComponent(text)}`, "_blank");
   });
 });
+
