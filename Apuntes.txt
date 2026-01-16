@@ -1,0 +1,232 @@
+Referencias 
+https://www.fnp.com/decoration-services/birthday-lp
+https://lafiestadeolivia.com/
+https://www.thepartydesigners.com/
+https://boomerangfiesta.com/decoraciones/decoraciones-de-eventos/
+
+1️⃣ HERO SECTION (Above the Fold – CRÍTICA)
+
+📍 Lo más importante de toda la página
+
+Objetivo:
+Que en 3 segundos el usuario entienda:
+
+Qué haces
+
+Para quién es
+
+Por qué eres premium
+
+Qué debe hacer
+
+Contenido:
+
+Headline claro (beneficio, no adorno):
+
+Decoración de cumpleaños elegantes y personalizados en Santo Domingo
+
+Subheadline (valor premium):
+
+Diseños exclusivos, montaje profesional y detalles que marcan la diferencia.
+
+CTA principal (WhatsApp):
+👉 Cotiza tu decoración por WhatsApp
+
+Elemento visual:
+
+1 imagen hero real, elegante, bien iluminada
+
+Nada genérico tipo stock barato
+
+Prueba rápida de autoridad (mini trust):
+
+⭐⭐⭐⭐⭐
+
+“Clientes satisfechos” / “Eventos realizados”
+
+🔹 Evento GTM:
+
+view_hero
+
+Inicio de scroll
+
+2️⃣ SECCIÓN DE PROBLEMA / DESEO
+
+📍 Aquí conectas emocionalmente
+
+Objetivo:
+Que el usuario diga: “Esto es exactamente lo que quiero evitar / lograr”
+
+Copy sugerido:
+
+Título:
+
+Sabes que el cumpleaños es importante… pero no quieres improvisar
+
+Bullets:
+
+No quieres una decoración genérica
+
+No quieres estrés el día del evento
+
+Quieres algo que se vea elegante y memorable
+
+Quieres que todo esté listo y perfecto
+
+👉 Esto justifica el precio premium sin hablar aún de precios.
+
+🔹 Evento:
+
+Scroll 25%
+
+Tiempo en página +30s
+
+3️⃣ PROPUESTA DE VALOR DIFERENCIAL (DMR STUDIO)
+
+📍 Por qué DMR Studio y no otro decorador
+
+Estructura:
+
+Título:
+
+En DMR Studio no decoramos, creamos experiencias
+
+3–4 diferenciales claros:
+
+Diseños personalizados según el estilo del cliente
+
+Materiales de alta calidad
+
+Montaje profesional y puntual
+
+Atención directa y asesoría personalizada
+
+📌 Clave:
+Nada técnico. Todo enfocado a resultado final.
+
+4️⃣ GALERÍA DE EVENTOS (PRUEBA VISUAL)
+
+📍 El dinero se gana aquí
+
+Objetivo:
+Reducir la duda antes de escribir por WhatsApp.
+
+Reglas:
+
+Fotos reales (NO mockups)
+
+6–9 imágenes máximo
+
+Estilo consistente
+
+Eventos que reflejen estatus
+
+🔹 Evento:
+
+view_gallery
+
+Scroll 50%
+
+5️⃣ PLANES DE DECORACIÓN (CORE DE CONVERSIÓN)
+
+📍 Aquí ocurre la decisión
+
+Estructura visual:
+
+3 tarjetas:
+
+Básico
+
+Intermedio (RECOMENDADO)
+
+Premium
+
+Contenido por plan:
+
+Nombre del plan
+
+Ideal para quién
+
+Incluye (beneficios, no inventario)
+
+CTA directo a WhatsApp
+
+Ejemplo de CTA:
+
+👉 Quiero este plan por WhatsApp
+
+📌 Estrategia psicológica:
+
+El plan Intermedio marcado como “Más elegido”
+
+El Premium ancla el precio
+
+El Básico filtra clientes no ideales
+
+🔹 Eventos:
+
+view_pricing
+
+click_whatsapp_plan_basico
+
+click_whatsapp_plan_intermedio
+
+click_whatsapp_plan_premium
+
+6️⃣ TESTIMONIOS / PRUEBA SOCIAL
+
+📍 Confianza antes del mensaje
+
+Ideal:
+
+3 testimonios cortos
+
+Nombre + tipo de evento
+
+Foto si es posible
+
+📌 No exageres, clase alta detecta falsedad rápido.
+
+7️⃣ PROCESO DE TRABAJO (SIMPLICIDAD)
+
+📍 Elimina fricción mental
+
+Título:
+
+Así de fácil es decorar tu evento
+
+Nos escribes por WhatsApp
+
+Definimos estilo y fecha
+
+Diseñamos y montamos
+
+Disfrutas tu evento
+
+🔹 Evento:
+
+Scroll 75%
+
+8️⃣ CTA FINAL FUERTE (CIERRE)
+
+📍 Última oportunidad
+
+Copy:
+
+Haz que tu cumpleaños se vea como lo imaginaste
+
+👉 Habla con DMR Studio por WhatsApp
+
+Botón grande, contrastado, visible.
+
+9️⃣ FOOTER MINIMALISTA
+
+Logo
+
+WhatsApp
+
+Zona de servicio
+
+Redes (si aportan estatus)
+
+Nada más.
