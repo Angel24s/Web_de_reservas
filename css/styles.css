@@ -1,3 +1,23 @@
+/* TOP BAR FIXED */
+.top-bar {
+  position: fixed;       /* fijo al hacer scroll */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 18px 60px;
+  z-index: 1000;
+  background: #fff;
+  text-align: center; 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Sombra ligera para destacar */
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700; /* negrita */
+  font-size: 22px;
+  color: #111;
+}
+
 /* RESET */
 * {
   margin: 0;
@@ -22,7 +42,7 @@ h1, h2, h3 {
   background: url("../img/hero.jpg") center / cover no-repeat;
   display: flex;
   align-items: center;
-  padding: 60px;
+  padding: 140px 60px 60px; /* top aumentado por barra */
 }
 
 .hero-content {
@@ -46,7 +66,7 @@ h1, h2, h3 {
 }
 
 .section.light {
-  background: #f7f7f7;
+  background: #f7f7f7f1;
 }
 
 /* PROBLEMA */
@@ -60,15 +80,27 @@ h1, h2, h3 {
   margin: 0 auto;
 }
 
-.problem-list {
+.bullets, 
+.card ul, 
+.process {
   list-style: none;
-  max-width: 600px;
-  margin: 40px auto 0;
+  padding: 0;
+  margin: 0;
 }
 
-.problem-list li {
-  padding: 14px 0;
+.problem-list li,
+.card ul li,
+.bullets li,
+.process li {
+  padding: 8px 0;
   border-bottom: 1px solid #ddd;
+}
+
+.problem-list li:last-child,
+.card ul li:last-child,
+.bullets li:last-child,
+.process li:last-child {
+  border-bottom: none;
 }
 
 /* FEATURES */
@@ -79,7 +111,7 @@ h1, h2, h3 {
   margin-top: 40px;
 }
 
-/* GALERIA */
+/* GALERÍA */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -104,7 +136,7 @@ h1, h2, h3 {
 }
 
 .recommended {
-  border: 2px solid #C9A24D;
+  border: 2px solid #44f100;
 }
 
 .badge {
@@ -129,8 +161,16 @@ footer {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+  .top-bar {
+    padding: 14px 24px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
   .hero {
-    padding: 30px;
+    padding: 120px 24px 40px;
   }
 
   .section {
