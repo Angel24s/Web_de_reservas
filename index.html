@@ -8,8 +8,7 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -18,57 +17,114 @@
   <div class="hero-content">
     <h1>Decoración de cumpleaños elegantes y personalizados en Santo Domingo</h1>
     <p>Diseños exclusivos, montaje profesional y detalles que marcan la diferencia.</p>
-    <a href="#" class="btn-whatsapp">Cotiza tu decoración por WhatsApp</a>
+    <a href="#" class="btn-whatsapp" data-plan="general">Cotiza tu decoración por WhatsApp</a>
+    <span class="trust">
   </div>
 </header>
 
-<!-- PROBLEMA / DESEO -->
-<section class="problem-section">
-  <div class="problem-container">
-    <h2>Sabes que el cumpleaños es importante…<br>pero no quieres improvisar</h2>
-
-    <ul class="problem-list">
-      <li>No quieres una decoración genérica</li>
-      <li>No quieres estrés el día del evento</li>
-      <li>Quieres algo elegante y memorable</li>
-      <li>Quieres que todo esté listo y perfecto</li>
-    </ul>
-  </div>
+<!-- PROBLEMA -->
+<section class="section light">
+  <h2>Sabes que el cumpleaños es importante…<br>pero no quieres improvisar</h2>
+  <ul class="bullets">
+    <li>No quieres una decoración genérica</li>
+    <li>No quieres estrés el día del evento</li>
+    <li>Quieres algo elegante y memorable</li>
+    <li>Quieres que todo esté perfecto</li>
+  </ul>
 </section>
 
 <!-- VALOR -->
 <section class="section">
   <h2>En DMR Studio no decoramos,<br>creamos experiencias</h2>
-
   <div class="features">
     <div>Diseños personalizados</div>
     <div>Materiales premium</div>
-    <div>Montaje profesional</div>
-    <div>Asesoría directa</div>
+    <div>Montaje profesional y puntual</div>
+    <div>Atención directa y asesoría</div>
   </div>
 </section>
 
 <!-- GALERÍA -->
 <section class="section light">
   <h2>Eventos reales</h2>
-
   <div class="gallery">
-    <img src="img/g1.jpg" alt="">
-    <img src="img/g2.jpg" alt="">
-    <img src="img/g3.jpg" alt="">
-    <img src="img/g4.jpg" alt="">
-    <img src="img/g5.jpg" alt="">
+    <img src="img/g1.jpg">
+    <img src="img/g2.jpg">
+    <img src="img/g3.jpg">
+    <img src="img/g4.jpg">
+    <img src="img/g5.jpg">
   </div>
 </section>
 
-<!-- CTA -->
+<!-- PLANES -->
+<section class="section">
+  <h2>Planes de decoración</h2>
+
+  <div class="pricing">
+
+    <div class="card">
+      <h3>Básico</h3>
+      <p>Ideal para celebraciones íntimas</p>
+      <ul>
+        <li>Decoración elegante</li>
+        <li>Montaje profesional</li>
+      </ul>
+      <a href="#" class="btn-whatsapp" data-plan="basico">Quiero este plan</a>
+    </div>
+
+    <div class="card recommended">
+      <h3>Intermedio</h3>
+      <span class="badge">Más elegido</span>
+      <p>Impacto visual equilibrado</p>
+      <ul>
+        <li>Diseño personalizado</li>
+        <li>Elementos destacados</li>
+      </ul>
+      <a href="#" class="btn-whatsapp" data-plan="intermedio">Quiero este plan</a>
+    </div>
+
+    <div class="card">
+      <h3>Premium</h3>
+      <p>Máxima exclusividad</p>
+      <ul>
+        <li>Diseño a medida</li>
+        <li>Producción completa</li>
+      </ul>
+      <a href="#" class="btn-whatsapp" data-plan="premium">Quiero este plan</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="section light">
+  <h2>Clientes felices</h2>
+  <div class="testimonials">
+    <blockquote>Todo quedó espectacular y sin estrés.</blockquote>
+    <blockquote>Se nota el nivel y el cuidado en los detalles.</blockquote>
+    <blockquote>Definitivamente premium.</blockquote>
+  </div>
+</section>
+
+<!-- PROCESO -->
+<section class="section">
+  <h2>Así de fácil es decorar tu evento</h2>
+  <ol class="process">
+    <li>Nos escribes por WhatsApp</li>
+    <li>Definimos estilo y fecha</li>
+    <li>Diseñamos y montamos</li>
+    <li>Disfrutas tu evento</li>
+  </ol>
+</section>
+
+<!-- CTA FINAL -->
 <section class="cta">
   <h2>Haz que tu cumpleaños se vea como lo imaginaste</h2>
-  <a href="#" class="btn-whatsapp">Habla con DMR Studio</a>
+  <a href="#" class="btn-whatsapp" data-plan="final">Habla con DMR Studio por WhatsApp</a>
 </section>
 
 <footer>
-  <p>© 2026 DMR Studio · República Dominicana</p>
+  <p>DMR Studio · Santo Domingo</p>
 </footer>
 
 <script src="js/main.js"></script>
